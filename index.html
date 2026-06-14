@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cancionero Señor Cautivo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg bg-left"></div>
+  <div class="bg bg-right"></div>
+
+  <main class="app">
+    <header class="hero">
+      <div class="ornament">──────── ✦ ✠ ✦ ────────</div>
+      <h1>† Cancionero Señor Cautivo †</h1>
+      <p>Ayabaca · Piura</p>
+      <div class="small-ornament">꧁ ✦ ꧂</div>
+    </header>
+
+    <section class="toolbar">
+      <label class="search">
+        <span>⌕</span>
+        <input id="buscador" type="search" placeholder="Buscar canción por nombre o letra..." autocomplete="off" />
+      </label>
+      <button id="btnCerrar" class="icon-btn" title="Cerrar canciones abiertas">Cerrar todo</button>
+    </section>
+
+    <div id="contador" class="counter"></div>
+    <section id="listaCanciones" class="song-list"></section>
+
+    <footer class="footer">
+      <span></span>
+      <p>♥ Fe, devoción y tradición que nos une.</p>
+      <span></span>
+    </footer>
+  </main>
+
+  <script src="canciones.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
